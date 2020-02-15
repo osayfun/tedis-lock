@@ -28,9 +28,7 @@ Lock.acquire("myLock").then(lockObject => {
   // as the function above, this callback will not be executed till
   // the function above is resolved. Hence, this will have to
   // wait for at least 1 second.
-  setTimeout(() => {
-    lockObject.release();
-  }, 1000);
+  lockObject.release();
 });
 ```
 
