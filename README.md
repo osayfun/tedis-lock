@@ -36,7 +36,7 @@ Lock.acquire("myLock").then(lockObject => {
 
 ## Installation
 
-    $ npm install redis-lock
+    $ npm install tedis-lock
 
 ## License
 
