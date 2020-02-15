@@ -1,6 +1,6 @@
 import { Tedis } from "tedis";
 
-const defaultTimeout = 5000000;
+const defaultTimeout = 5000;
 
 class TedisLock {
   constructor(
