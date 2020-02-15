@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "esNext",
+    "outDir": "./build",
+    "baseUrl": "./src",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "types": ["node"],
+    "typeRoots": ["./types"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
